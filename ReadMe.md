@@ -32,3 +32,12 @@ BOOTSTRAP
 
 ## Support and contact details
 (https://github.com/Leslie)
+
+## Website Online Link
+[https://zippy-jalebi-1d7f6d.netlify.app/]
+
+## License
+
+MIT License
+
+Copyright (c) 2022 Leslie Wambui
