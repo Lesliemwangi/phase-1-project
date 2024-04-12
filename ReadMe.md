@@ -40,4 +40,4 @@ BOOTSTRAP
 
 MIT License
 
-Copyright (c) 2022 Leslie Wambui
+Copyright (c) 2024 Leslie Wambui
