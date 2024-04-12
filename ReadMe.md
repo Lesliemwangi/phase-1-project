@@ -16,12 +16,12 @@ Git
 
 ### Installation instruction
 
-git@github.com:Xgambino/GitHub-Link-Phase-1-Independent-Project.git
 
+git@github.com:Lesliemwangi/phase-1-project.git
 
 
 # Live Link
-https://github.com/Xgambino/GitHub-Link-Phase-1-Independent-Project.git
+https://github.com/Lesliemwangi/phase-1-project.git
 
 ## Technologies used
 Github
@@ -31,4 +31,4 @@ CSS
 BOOTSTRAP
 
 ## Support and contact details
-(https://github.com/Xgambino)
+(https://github.com/Leslie)
