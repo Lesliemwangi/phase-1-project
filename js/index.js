@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchMansionettes() {
-  fetch(BASE_URL) // Corrected fetch URL
+  fetch(BASE_URL)
     .then((response) => response.json())
     .then((data) => {
       data.forEach((mansionette) => {
@@ -31,6 +31,12 @@ function renderMansionette(mansionette) {
   image.classList.add("card-img-top");
   image.src = mansionette.image;
   image.alt = mansionette.title;
+
+  // Add an event listener to the image
+  image.addEventListener("click", function () {
+    // Remove the href attribute from the parent anchor tag when the image is clicked
+    this.parentNode.removeAttribute("href");
+  });
 
   const cardBody = document.createElement("div");
   cardBody.classList.add("card-body");
