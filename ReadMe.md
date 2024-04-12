@@ -8,7 +8,7 @@
 
 My project is a real estate company website developed to showcase available properties and provide information about the company's services. The website includes sections for home, about, designs, showrooms, and contacts.
 
-    ## Home:
+    ### Home:
     Provides an introduction to the real estate agency, welcoming visitors and outlining the services offered.
 
     About: Offers information about the company's background, mission, and values, emphasizing its commitment to exceptional service and professionalism.
