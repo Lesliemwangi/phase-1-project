@@ -105,25 +105,20 @@
 }
 
 .card-body {
-    padding: 20px; /* Increase padding for more space */
+    padding: 20px; 
     text-align: center;
-    overflow: hidden; /* Hide any overflowing content within the card body */
+    overflow: hidden; 
 }
-
 .card-details {
-    margin-bottom: 20px; /* Add margin to separate details from button */
+    margin-bottom: 20px; 
 }
 
 .btn-primary {
-    position: absolute; /* Set position absolute */
-    bottom: 20px; /* Adjust the distance from the bottom */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
 }
-
-
-
-
   
   .footer {
     background-color: blanchedalmond;
