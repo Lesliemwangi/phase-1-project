@@ -71,54 +71,70 @@
   
   .card-container {
     display: flex;
-    flex-direction: row; /* Ensure horizontal layout */
-    flex-wrap: nowrap; /* Prevent wrapping */
-    width: 100%;
-    border-radius: 10px;
-    justify-content: space-between; /* Align cards to the start of the container */
-    padding: 10px;
-    align-items: stretch;
-    object-fit: cover;
-    box-sizing: border-box;
-  }
-  .card {
-    /* Adjust the width and height of each card */
-    width: 600px;
-    height: 900px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-right: 10px; /* Add margin between cards */
-    overflow: hidden; /* Hide any overflowing content */
-    position: relative; /* Set position relative for absolute positioning */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.card:last-child {
-    margin-right: 0; /* Remove margin from the last card */
+.card {
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
 }
 
 .card img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.card-body {
-    padding: 20px; 
-    text-align: center;
-    overflow: hidden; 
-}
-.card-details {
-    margin-bottom: 20px; 
+.card .card-body {
+    padding: 20px;
 }
 
-.btn-primary {
-    position: absolute; 
-    bottom: 20px; 
-    left: 50%; 
-    transform: translateX(-50%); 
+.card h5 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
 }
+
+.card p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.card .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+
+.btn-primary {
+    position: absolute; /* Set position absolute */
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+
+
+
   
   .footer {
     background-color: blanchedalmond;
