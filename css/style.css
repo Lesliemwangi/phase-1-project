@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  body {
+    background-image: url(/Assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .navbar-brand:hover {
+    color: black;
+  }
+  
+  .nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  .nav-link:hover {
+    color: black;
+  }
+  
+  .search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -40px;
+    border: 2px solid rgb(248, 26, 92);
+  }
+  
+  .btn {
+    height: 28px;
+    width: 50px;
+    outline: none;
+    border: none;
+    box-sizing: content-box;
+    border-radius: 50px;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+  }
+  
+  .btn1 {
+    height: 45px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    margin-left: 600px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+  }
+  
+  .home {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: row; /* Ensure horizontal layout */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    width: 100%;
+    border-radius: 10px;
+    justify-content: space-between; /* Align cards to the start of the container */
+    padding: 10px;
+    align-items: stretch;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+  .card {
+    /* Adjust the width and height of each card */
+    width: 600px;
+    height: 900px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 10px; /* Add margin between cards */
+    overflow: hidden; /* Hide any overflowing content */
+    position: relative; /* Set position relative for absolute positioning */
+}
+
+.card:last-child {
+    margin-right: 0; /* Remove margin from the last card */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px; /* Increase padding for more space */
+    text-align: center;
+    overflow: hidden; /* Hide any overflowing content within the card body */
+}
+
+.card-details {
+    margin-bottom: 20px; /* Add margin to separate details from button */
+}
+
+.btn-primary {
+    position: absolute; /* Set position absolute */
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+
+
+
+  
+  .footer {
+    background-color: blanchedalmond;
+  }
+  
+  .footer .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  
+  .footer .contacts .box {
+    flex: 1 1 30rem;
+  }
+  
+  .footer .contacts .box a {
+    display: block;
+    padding: 1rem 0;
+    font-size: 2rem;
+  }
+  
+  .footer .contacts .box a span {
+    color: magenta;
+  }
+  
+  .footer .contacts .box a i {
+    color: white;
+  }
+  
+  .footer .contacts .box:last-child {
+    text-align: right;
+  }
+  
+  .footer .contacts .box:last-child a i {
+    margin-left: 1rem;
+  }
+  
+  .footer .contacts .box:first-child a {
+    margin-right: 1rem;
+  }
+  
+  .footer .credit {
+    padding: 3rem 2rem;
+    text-align: center;
+    border-top: 0px;
+    font-size: 10px;
+    margin-top: 2rem;
+  }
