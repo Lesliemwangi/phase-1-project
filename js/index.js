@@ -40,6 +40,7 @@ function renderMansionette(mansionette) {
 
   const cardBody = document.createElement("div");
   cardBody.classList.add("card-body");
+  cardBody.style.minHeight = "700px"
 
   const title = document.createElement("h5");
   title.classList.add("card-title");
@@ -53,6 +54,7 @@ function renderMansionette(mansionette) {
 
   const description = document.createElement("p");
   description.textContent = mansionette.description;
+  
 
   const purchaseButton = document.createElement("button");
   purchaseButton.classList.add("btn", "btn-primary");
