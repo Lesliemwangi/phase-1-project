@@ -34,35 +34,6 @@ function handlePurchase() {
   alert("Purchased! Enjoy");
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Get the login button element
-  const loginButton = document.querySelector(".btn-login");
-
-  // Add click event listener to the login button
-  loginButton.addEventListener("click", function (event) {
-    // Prevent the default behavior of the link
-    event.preventDefault();
-
-    // Show a pop-up message for login
-    alert("Please log in to access your account.");
-    // You can replace the alert with a modal or other login form as needed
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  // Get the signup button element
-  const signupButton = document.querySelector(".btn-signup");
-
-  // Add click event listener to the signup button
-  signupButton.addEventListener("click", function (event) {
-    // Prevent the default behavior of the link
-    event.preventDefault();
-
-    // Show a pop-up message for login
-    alert("Please sign up to access your account.");
-    // You can replace the alert with a modal or other signup form as needed
-  });
-});
 // Declare the function to render a mansionette on the page
 function renderMansionette(mansionette) {
   // Get the container where mansionettes will be rendered
