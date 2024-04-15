@@ -32,6 +32,10 @@ body {
 
 .nav-link:hover {
   color: black;
+  border-bottom: 2px solid black;
+  transition: 0.5s;
+  border-radius: 10px;
+  padding-bottom: 0.15px;
 }
 
 .search {
@@ -66,6 +70,48 @@ body {
   color: white;
   font-weight: 700;
   border-radius: 60px;
+}
+
+.btn-login {
+  height: 45px;
+  width: 70px;
+  outline: none;
+  border: none;
+  box-sizing: content-box;
+  border-radius: 50px;
+  background: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+}
+
+
+.btn-login span {
+  transition: color 0.3s;
+}
+
+.btn-login:hover span {
+  color: black;
+}
+
+.btn-signup {
+  height: 45px;
+  width: 70px;
+  outline: none;
+  border: none;
+  box-sizing: content-box;
+  border-radius: 50px;
+  background: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+}
+
+
+.btn-signup span {
+  transition: color 0.3s;
+}
+
+.btn-signup:hover span {
+  color: black;
 }
 
 .content h3 {
